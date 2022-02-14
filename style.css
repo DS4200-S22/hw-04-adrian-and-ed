@@ -1,0 +1,37 @@
+html * {
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+circle {
+    width: 150;
+}
+
+
+svg {
+    width: 300px;
+    height: 300px;
+}
+
+#shapes {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#circle1 {
+    fill: #141c8c;
+    border-style: solid;
+    border-width: 5px;
+    border-radius:
+}
+
+#circle2 {
+    fill: #e60911;
+}
+
+#circle3 {
+    fill: #39e609;
+}
