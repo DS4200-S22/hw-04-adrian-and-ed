@@ -22,10 +22,12 @@ svg {
 }
 
 #circle1 {
-    fill: #141c8c;
-    border-style: solid;
-    border-width: 5px;
-    border-radius:
+    fill: yellow;
+    stroke: black;
+    stroke-width: 10px;
+  
+  
+    
 }
 
 #circle2 {
@@ -34,4 +36,7 @@ svg {
 
 #circle3 {
     fill: #39e609;
+    stroke: black;
+    stroke-width: 10px;
+    opacity: 1
 }

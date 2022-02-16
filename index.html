@@ -2,10 +2,12 @@
 <html> 
 
 <head>
+    <title>hw-04</title>
     <meta charset=utf-8/>
     <link rel="stylesheet" href="style.css">
+    
 </head>
-<title>hw-04</title>
+
 <h1>Event Handling</h1>
 
 
@@ -14,17 +16,20 @@
     <div id="shapes">
         <span>
             <svg>
-                <circle cx="150" cy="150" r="95" id = "circle1" stroke = "black" stroke-width="10px"/>
+                <circle cx="150" cy="150" r="95" id = "circle1" onclick="circle1Clicked();"></circle>
+                <text id="circle1Text" x="150" y="150">
+                    0
+                </text>
               </svg>
         </span>
         <span>
             <svg>
-                <circle cx="150" cy="150" r="95" id = "circle2"/>
+                <circle cx="150" cy="150" r="95" id = "circle2" onmouseover="circle2MouseOver();" onmouseout="circle2MouseOut();"/>
               </svg>
         </span>
         <span>
             <svg>
-                <circle cx="150" cy="150" r="95" id = "circle3" stroke = "black" stroke-width="10px"/>
+                <circle cx="150" cy="150" r="95" id = "circle3" onclick="circle3Clicked();"/>
               </svg>
         </span>
 
